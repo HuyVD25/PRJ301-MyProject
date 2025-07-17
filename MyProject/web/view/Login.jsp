@@ -328,7 +328,7 @@
             </div>
             
             <!-- Login Form -->
-            <form action="LoginServlet" method="POST" id="loginForm">
+            <form action="/MyProject/LoginServlet" method="POST" id="loginForm">
                 <div class="form-group">
                     <label class="form-label" for="username">Tên đăng nhập</label>
                     <input 
@@ -388,12 +388,7 @@
                     showError('Vui lòng nhập đầy đủ thông tin!');
                     return;
                 }
-                
-                if (password.length < 6) {
-                    e.preventDefault();
-                    showError('Mật khẩu phải có ít nhất 6 ký tự!');
-                    return;
-                }
+              
             });
             
             function showError(message) {
