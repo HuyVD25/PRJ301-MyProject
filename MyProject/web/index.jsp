@@ -70,19 +70,19 @@
     </head>
     <body class="main">
         <div class="headercontainer">
-            <%@ include file="View/Header.jsp"%>
+            <%@ include file="Component/Header.jsp"%>
         </div>
         
         <div class="navcontainer">
-            <%@ include file="View/Nav.jsp"%>
+            <%@ include file="Component/Nav.jsp"%>
         </div>
         
         <div class="contentcontainer">
-            <%@ include file="View/Content.jsp"%>
+            <%@ include file="Component/Content.jsp"%>
         </div>
         
         <div class="footercontainer">
-            <%@ include file="View/Footer.jsp"%>
+            <%@ include file="Component/Footer.jsp"%>
         </div>
     </body>
 </html>
